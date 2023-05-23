@@ -1,6 +1,6 @@
 /* Mobile */
 
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body{
 
 .container{
     width: 375px;
-    font-family: ;
+    /* font-family: ; */
     /* background-color: aqua; */
 }
 
@@ -17,12 +17,17 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px;
+}
+
+.header-logo{
+    object-fit: contain;
 }
 
 .upper-button{
     background-color:#FFFFFF;
     border-radius: 5px;
+    padding: 10px;
 }
 .upper-button:hover{
     background-color: #172339;
@@ -31,18 +36,150 @@ header{
 
 /* section-1 */
 
+.section-1{
+    margin: 10px;
+}
+
 .first-curved-line{
     width: 289px;
     height: 39px;
+    /* margin-top: 30px; */
 }
 
 p{
   color: #49566D;
+  line-height: 20px;
+}
+
+.first-paragraph{
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .super{
-    color: 172339;
+    color: #172339;
+    font-size: 40px;
+    font-weight: 500px;
 }
+
+.business{
+    color: #172339;
+    font-size: 40px;
+    font-weight: 500px;
+}
+
+.lower-button{
+    background-color: #172339;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top:20px ;
+}
+
+.lower-button:hover{
+    background: linear-gradient(180deg,#A060FF,#CB30E3,#FFA84E);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
 .hero-tablet ,.hero-desktop{
     display: none;
+}
+
+/* .hero-mobile{
+    margin-left: 15px;
+} */
+
+/* section-2 */
+
+.numbers{
+    color: #172339;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.text{
+    color: #49566D;
+    margin-top: 15px;
+}
+
+.ration{
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.jeremy-tablet ,.jeremy-desktop{
+    display: none;
+}
+
+.jeremy-mobile{
+    position: relative;
+    bottom: 180px;
+    left: 60px;
+}
+
+.lower-curved-line{
+    position: relative;
+    bottom: 100px;
+    right: 90px;
+    margin-top: 70px;
+}
+
+.info{
+    background-color: #172339;
+    width: 375px;
+    height: 748px;
+    border-radius: 10px;
+}
+
+.message{
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.upper-text{
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.works{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 80;
+}
+
+.name{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 50px;
+
+}
+
+.cmo{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: #F3EDE7;
+}
+
+.footer-logo{
+    margin: 30px;
+}
+
+.copyright{
+    margin-bottom: 30px;
 }
