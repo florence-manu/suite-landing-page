@@ -96,6 +96,8 @@ p{
     margin-left: 15px;
 } 
 
+
+
 /* section-2 */
 
 .numbers{
@@ -120,9 +122,17 @@ p{
 }
 
 .jeremy-mobile{
-    position: relative;
-    bottom: 180px;
+    position: absolute;
+    top: -170px;
     left: 60px;
+    z-index: 10;
+}
+
+.blurry{
+    position: relative;
+    z-index: 10;
+    top: -90px;
+    right: 50px;
 }
 
 .lower-curved-line{
@@ -398,17 +408,27 @@ footer{
     
     .jeremy-tablet{
         display: initial;
-        position: relative;
-        bottom: 180px;
+        position: absolute;
+        bottom: 450px;
         left: 230px;
         padding-top: 30px;
+        z-index: 10;
+    }
+
+    .blurry{
+        position: relative;
+        z-index: 10;
+        top: -100px;
+        left: 90px;
     }
     
     .lower-curved-line{
         position: relative;
-        bottom: 100px;
-        left: 70px;
+        bottom: 200px;
+        left: -220px;
     }
+
+
     
     .info{
         background-color: #172339;
@@ -527,7 +547,8 @@ footer{
 
     header{
         margin: 20px;
-        background-color: #CB30E3;
+        position: relative;
+        left: 110px;
     }
     
     .header-logo{
@@ -539,7 +560,7 @@ footer{
         border-radius: 5px;
         padding: 10px;
         position: relative;
-        right: 300px;
+        /* right: 900px; */
         font-family: 'Epilogue';
     }
     .upper-button:hover{
@@ -552,6 +573,8 @@ footer{
     .section-1{
         margin: 10px;
         width: 100%;
+        position: relative;
+        left: 100px;
         /* height: 482px; */
     }
     
@@ -560,8 +583,8 @@ footer{
         height: 39px;
         /* object-fit: fill; */
         position: relative;
-        left: 200px;
-        top: 200px;
+        left: 380px;
+        top: 260px;
     }
     
     /* p{
@@ -577,7 +600,7 @@ footer{
         line-height: 35px;
         font-family:'Epilogue';
         font-weight: 500px;
-        font-size: 58px;
+        font-size: 72px;
         line-height: 68px;
         letter-spacing: -0.78px;
         /* margin-bottom: 50px; */
@@ -589,11 +612,11 @@ footer{
     
     .super , .business{
         color: #172339;
-        font-size: 56px;
+        font-size: 72px;
         font-weight: bolder;
         font-family:'Epilogue';
         Line-height: 64px;
-        letter-spacing: -0.78px;
+        letter-spacing: -1px;
     }
 
     .second-paragraph{
@@ -605,7 +628,8 @@ footer{
         letter-spacing: 0.0888889px;
         color: #49566D;
         position: relative;
-        top: 300px;
+        top: 430px;
+        left: 50px;
         /* margin-top: 50px; */
     }
     
@@ -623,7 +647,7 @@ footer{
         margin-bottom: 40px;
         margin-top:20px ;
         position: relative;
-        bottom: 120px;
+        bottom: 80px;
         left: 50px;
     }
     
@@ -640,7 +664,7 @@ footer{
     .hero-desktop{
         display: initial;
         position: relative;
-        left: 500px;
+        left: 320px;
         bottom: 30px;
         width: 350px;
         height: 600px;
@@ -652,27 +676,23 @@ footer{
     .numbers-1 ,.numbers-2 ,.numbers-3{
         color: #172339;
         font-size: 50px;
-        font-weight: 600;
+        font-weight: bolder;
         position: relative;
-        bottom: 200px;
-        /* margin-left: 40px; */
+        font-family: 'Epilogue';
 
     }
-/* 
+
     .numbers-1 {
-        position: relative;
-        right: 60px;
-    } */
+        margin-bottom: 30px; 
+    } 
 
-    /* .numbers-2{
-        position: relative;
-        left: 30px;
-    } */
+    .numbers-2{
+        margin-bottom: 30px;
+    }
 
-    /* .numbers-3{
-        position: relative;
-        left: 100px; 
-    } */
+    .numbers-3{
+        margin-bottom: 30px; 
+    } 
 
 
     
@@ -682,62 +702,77 @@ footer{
         bottom: 340px;
         right: 150px;
         margin-top: 45px;
+        font-family: 'Epilogue';
     }
 
     .text-1{
         position: relative;
-        left: -80px;
-        /* margin-bottom: 30px; */
+        left: 10px;
+        bottom: 100px;
+        margin-bottom: 30px;
     }
 
     .text-2{
         position: relative;
-        left: -45px;
-        /* margin-bottom: 30px; */
+        left: 10px;
+        margin-bottom: 30px;
     }
 
     .text-3{
         position: relative;
-        left: -50px;
+        left: 10px;
+        margin-bottom: 30px;
     }
     
     .ration{
         display: flex;
+        justify-content: space-around;
         flex-direction: column;
         position: absolute;
         width: 689px;
         height: 83px;
         left: 60%;
-        top: 450px;
+        top: 150px;
         /* margin: 70px; */
     }
     
-    .jeremy-mobile ,.jeremy-desktop{
+    .jeremy-mobile ,.jeremy-tablet{
         display: none;
     }
     
-    .jeremy-tablet{
+    .jeremy-desktop{
         display: initial;
+        position: absolute;
+        width: 375px;
+        height: 600px;
+        top: -45px;
+        left: 130px;
+        /* padding-top: 30px; */
+        z-index: 10;
+
+    }
+
+    .blurry{
         position: relative;
-        bottom: 180px;
-        left: 230px;
-        padding-top: 30px;
+        top: 50px;
+        z-index: 10;
     }
     
     .lower-curved-line{
         position: relative;
-        bottom: 100px;
-        left: 70px;
+        bottom: 300px;
+        left: 50px;
     }
     
     .info{
         background-color: #172339;
-        width: 700px;
-        height: 682px;
+        width: 1109px;
+        height: 555px;
         border-radius: 10px;
         position: relative;
-        top: 500px;
-        left: 30px;
+        top: 420px;
+        margin: 150px;
+        /* right: 300px; */
         z-index: 10;
     }
     
@@ -745,7 +780,7 @@ footer{
         text-align: center;
         position: absolute;
         bottom: 320px;
-        right: 300px;
+        right: 200px;
         font-family: 'Epilogue';
         z-index: -10;
         
@@ -754,17 +789,18 @@ footer{
     .upper-text{
         font-size: 30px;
         margin: 20px;
-        /* margin-top: 40px; */
+        margin-bottom: 70px;
         position: relative;
         left: 150px;
-        bottom: 500px;
+        bottom: 600px;
     }
 
     .testimony{
         position: relative;
         left: 160px;
-        width: 420px;
-        height: 96px;
+        width: 350px;
+        height: 175px;
+        text-align: start;
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
@@ -782,7 +818,8 @@ footer{
 
     .identity{
         position: relative;
-        left: 100px;
+        text-align: start;
+        left: 140px;
         bottom: 20px;
     }
     
@@ -805,15 +842,15 @@ footer{
         background-color: #F3EDE7;
         position: relative;
         width: 100%;
-        height: 650px;
+        height: 530px;
         top: 30px;
     }
     
     .footer-logo{
         margin: 30px;
         position: relative;
-        top: 450px;
-        right: 250px;
+        top: 240px;
+        right: 440px;
     }
     
     .copyright{
@@ -821,14 +858,14 @@ footer{
         font-family: 'Epilogue';
         position: absolute;
         right: 100px;
-        top: 540px;
+        top: 320px;
         z-index: 10;
     }
     
     .icon-1 , .icon-2 , .icon-3{
         position: relative;
-        top: 430px;
-        left: 230px;
+        top: 200px;
+        left: 450px;
         margin: 8px;
     }
     
