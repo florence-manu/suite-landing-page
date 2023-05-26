@@ -559,7 +559,7 @@ footer{
 
 /* Desktop */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
 
 
     .container{
@@ -568,13 +568,15 @@ footer{
      
 
     header{
-        margin: 20px;
+        /* margin-left: 20px; */
+        width: 908px;
         position: relative;
-        left: 110px;
+        /* left: 110px; */
     }
     
     .header-logo{
         object-fit: contain;
+        margin-left: 130px;
     }
     
     .upper-button{
@@ -793,15 +795,15 @@ footer{
         border-radius: 10px;
         position: relative;
         top: 420px;
-        margin: 150px;
+        margin: 100px;
         /* right: 300px; */
-        z-index: 10;
+        z-index: 11;
     }
     
     .message{
         text-align: center;
         position: absolute;
-        bottom: 320px;
+        /* bottom: 320px; */
         right: 200px;
         font-family: 'Epilogue';
         z-index: -10;
@@ -842,7 +844,7 @@ footer{
         position: relative;
         text-align: start;
         left: 140px;
-        bottom: 20px;
+        /* bottom: 20px; */
     }
     
     .name{
@@ -862,10 +864,11 @@ footer{
     footer{
         text-align: center;
         background-color: #F3EDE7;
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 530px;
-        top: 30px;
+        margin-top: 70px;
+        /* top: 30px; */
         z-index: 10;
     }
     
@@ -881,8 +884,8 @@ footer{
         font-family: 'Epilogue';
         position: absolute;
         right: 100px;
-        top: 320px;
-        z-index: 10;
+        top: 330px;
+        /* z-index: 10; */
     }
     
     .icon-1 , .icon-2 , .icon-3{
