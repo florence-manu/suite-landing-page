@@ -123,7 +123,7 @@ p{
 
 .jeremy-mobile{
     position: absolute;
-    top: -170px;
+    top: -180px;
     left: 60px;
     z-index: 10;
 }
@@ -131,14 +131,17 @@ p{
 .blurry{
     position: relative;
     z-index: 10;
-    top: -90px;
+    top: -200px;
     right: 50px;
+    overflow: hidden;
+    /* width: 252px;
+    height: 102px; */
 }
 
 .lower-curved-line{
     position: relative;
-    bottom: 100px;
-    right: 90px;
+    bottom: 360px;
+    left: 140px;
     margin-top: 70px;
 }
 
@@ -149,7 +152,7 @@ p{
     border-radius: 10px;
     position: relative;
     margin: 8px;
-    z-index: -10;
+    z-index: 10;
 }
 
 .message{
@@ -161,13 +164,18 @@ p{
 
 .upper-text{
     font-size: 30px;
+    position: relative;
+    top: 70px;
     margin: 20px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
-/* .testimony{
-
-} */
+.testimony{
+    width: 300px;
+    height: 175px;
+    position: relative;
+    top: 80px;
+}
 
 .works{
     color: #FFFFFF;
@@ -193,9 +201,10 @@ p{
 footer{
     text-align: center;
     height: 300px;
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #F3EDE7;
-    position: relative;
+    position: absolute;
+    z-index: 10;
 }
 
 .footer-logo{
