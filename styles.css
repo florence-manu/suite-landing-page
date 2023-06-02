@@ -7,11 +7,12 @@
 }
 
 body{
+    align-content: center;
     overflow-x: hidden;
 }
 
 .container{
-    width: 375px;
+    min-width: 375px;
     font-family: 'Epilogue';
 }
 
@@ -259,7 +260,7 @@ footer{
 @media screen and (min-width: 768px) {
 
     .container{
-        width: 768px;
+        min-width: 768px;
         object-fit: contain;
     } 
     
@@ -397,7 +398,7 @@ footer{
         position: absolute;
         width: 689px;
         height: 83px;
-        left: 39px;
+        /* left: 39px; */
         top: 450px;
         /* margin-bottom: 90px; */
     }
@@ -457,7 +458,7 @@ footer{
         display: initial;
         position: absolute;
         bottom: 450px;
-        left: 230px;
+        left: 200px;
         padding-top: 30px;
         z-index: 10;
     }
