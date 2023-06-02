@@ -20,18 +20,23 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    width: 343px;
+    height: 48px;
     margin: 20px;
 }
 
 .header-logo{
     object-fit: contain;
+    width: 81px;
+    height: 32px;
 }
 
 .upper-button{
     background-color:#FFFFFF;
     border-radius: 5px;
     margin-right: 4px;
-    padding: 10px;
+    width: 180px;
+    height: 38px;
 }
 .upper-button:hover{
     background-color: #172339;
@@ -262,20 +267,26 @@ footer{
     
     header{
         margin: 20px;
+        width: 689px;
+        height: 56px;
     }
     
     .header-logo{
         object-fit: contain;
+        width: 81px;
+        height: 32px;
     }
     
     .upper-button{
         background-color:#FFFFFF;
-        border-radius: 5px;
+        border-radius: 10px;
         padding: 10px;
+        width: 219px;
+        height: 56px;
         position: relative;
-        left: 370px;
+        /* /*left: 370px; */
         font-family: 'Epilogue';
-    }
+}
     .upper-button:hover{
         background-color: #172339;
         color: #FFFFFF;
@@ -377,6 +388,19 @@ footer{
     }
     
     /* section-2 */
+
+
+    .ration{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+        position: absolute;
+        width: 689px;
+        height: 83px;
+        left: 39px;
+        top: 450px;
+        /* margin-bottom: 90px; */
+    }
     
     .numbers-1 ,.numbers-2 ,.numbers-3{
         color: #172339;
@@ -388,14 +412,23 @@ footer{
 
     }
 
+    .numbers-1{ 
+       padding-right: -80px;
+    } 
 
+    .numbers-2{
+       padding-left: 50px;
+    }
+ 
+    .numbers-3{
+        padding-left: 70px;
+    }
+    
     
     .text-1 ,.text-2 ,.text-3{
         color: #49566D;
-        position: relative;
-        bottom: 340px;
-        right: 150px;
-        margin-top: 45px;
+        margin-top: 75px;
+        padding-bottom: 50px;
     }
 
     .text-1{
@@ -415,16 +448,6 @@ footer{
         left: -50px;
     }
     
-    .ration{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        width: 689px;
-        height: 83px;
-        left: 39px;
-        top: 450px;
-        margin: 70px;
-    }
     
     .jeremy-mobile ,.jeremy-desktop{
         display: none;
@@ -442,7 +465,7 @@ footer{
     .blurry{
         position: relative;
         z-index: 10;
-        top: -100px;
+        top: -150px;
         left: 90px;
     }
     
@@ -450,7 +473,7 @@ footer{
         /* margin: 20px; */   
         position: relative;
         bottom: 220px;
-        left: -220px;
+        left: -240px;
     }
 
 
@@ -481,13 +504,13 @@ footer{
         margin: 20px;
         /* margin-top: 40px; */
         position: relative;
-        left: 150px;
+        left: 180px;
         /* bottom: 200px; */
     }
 
     .testimony{
         position: relative;
-        left: 160px;
+        left: 190px;
         width: 420px;
         height: 96px;
         font-family: 'Epilogue';
@@ -495,6 +518,7 @@ footer{
         font-weight: 400;
         font-size: 14px;
         line-height: 30px;
+        text-align: center;
         letter-spacing: 0.09px;
         color: #F3EDE7;
     }
@@ -507,7 +531,7 @@ footer{
 
     .identity{
         position: relative;
-        left: 100px;
+        left: 170px;
         bottom: 200px;
     }
     
@@ -538,7 +562,7 @@ footer{
         margin: 30px;
         position: relative;
         top: 450px;
-        right: 250px;
+        right: 220px;
     }
     
     .copyright{
@@ -553,7 +577,7 @@ footer{
     .icon-1 , .icon-2 , .icon-3{
         position: relative;
         top: 430px;
-        left: 230px;
+        left: 200px;
         margin: 8px;
     }
     
@@ -570,31 +594,33 @@ footer{
 @media screen and (min-width: 1024px) {
 
 
-    /* .container{
-        /* width: 100%; */
-    /* } */ 
+     /* .container{
+    }  */
      
 
     header{
         /* margin-left: 20px; */
         width: 908px;
-        position: relative;
-        /* left: 110px; */
+        height: 56px;
     }
     
     .header-logo{
         object-fit: contain;
+        width: 79px;
+        height: 25px;
         margin-left: 130px;
     }
     
     .upper-button{
         background-color:#FFFFFF;
-        border-radius: 5px;
-        padding: 10px;
+        border-radius: 10px;
+        /* /*padding: 10px; */
         position: relative;
-        /* right: 900px; */
+        left: 330px;
+        width: 219px;
+        height: 56px;
         font-family: 'Epilogue';
-    }
+}
     .upper-button:hover{
         background-color: #172339;
         color: #FFFFFF;
@@ -898,7 +924,7 @@ footer{
     
     .icon-1 , .icon-2 , .icon-3{
         position: relative;
-        top: 200px;
+        top: 230px;
         left: 450px;
         margin: 8px;
     }
@@ -906,3 +932,5 @@ footer{
 }
 
     
+
+
