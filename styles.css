@@ -33,14 +33,14 @@ header{
     height: 32px;
 }
 
-.upper-button{
+.header-button{
     background-color:#FFFFFF;
     border-radius: 5px;
     margin-right: 4px;
     width: 180px;
     height: 38px;
 }
-.upper-button:hover{
+.header-button:hover{
     background-color: #172339;
     color: #FFFFFF;
 }
@@ -283,7 +283,7 @@ footer{
         height: 32px;
     }
     
-    .upper-button{
+    .header-button{
         background-color:#FFFFFF;
         border-radius: 10px;
         padding: 10px;
@@ -293,7 +293,7 @@ footer{
         /* /*left: 370px; */
         font-family: 'Epilogue';
 }
-    .upper-button:hover{
+    .header-button:hover{
         background-color: #172339;
         color: #FFFFFF;
     }
@@ -605,8 +605,9 @@ footer{
 @media screen and (min-width: 1024px) {
 
 
-     /* .container{
-    }  */
+     .container{
+        min-width: 1024px;
+     }
      
 
     header{
@@ -622,7 +623,7 @@ footer{
         margin-left: 80px;
     }
     
-    .upper-button{
+    .header-button{
         background-color:#FFFFFF;
         border-radius: 10px;
         /* /*padding: 10px; */
@@ -632,7 +633,7 @@ footer{
         height: 56px;
         font-family: 'Epilogue';
 }
-    .upper-button:hover{
+    .header-button:hover{
         background-color: #172339;
         color: #FFFFFF;
     }
@@ -680,7 +681,7 @@ footer{
         right: 330px;
     }
     
-    .super , .business{
+    .super{
         color: #172339;
         font-size: 72px;
         font-weight: bolder;
@@ -775,6 +776,7 @@ footer{
         bottom: 340px;
         right: 150px;
         font-family: 'Epilogue';
+        /* padding-top: -50px; */
     }
 
     .text-1{
