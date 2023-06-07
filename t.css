@@ -263,6 +263,13 @@ body{
 /* Tablet */
 
 @media screen and (min-width: 768px) {
+     
+    .bottom-bg {
+        width: 100%;
+        height: 750px;
+        left: 0px;
+    }
+     
 
     .section-1{
         display: grid;
@@ -279,7 +286,8 @@ body{
 
     .first-paragraph{
         position: absolute;
-        left: 50px;
+        top: 200px;
+        /* left: 20px; */
         font-family:'Epilogue';
         font-weight: 400px;
         font-size: 56px;
@@ -291,7 +299,7 @@ body{
 
     .super{
         color: #172339;
-        font-size: 56px;
+        font-size: 60px;
         font-weight: bolder;
         font-family:'Epilogue';
         Line-height: 64px;
@@ -299,12 +307,13 @@ body{
     }
 
     .second-paragraph{
+        width: 400px;
         font-family: 'Epilogue';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
-        letter-spacing: 0.0888889px;
+        letter-spacing: 0.88888889px;
         color: #49566D;
         position: relative;
         top: 250px;
@@ -313,14 +322,15 @@ body{
     }
 
     .lower-button{
-        padding: 15px;
-        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 256px;
+        border-radius: 3px;
         margin-bottom: 40px;
         margin-top:20px ;
         position: relative;
-        top: 250px;
-        left: 50px;
-    }
+        top: 280px;
+}
 
     .hero-mobile,.hero-desktop{
         display: none;
@@ -331,7 +341,7 @@ body{
         position: relative;
         right: 20px;
         /* left: 40px; */
-        bottom: 100px;
+        bottom: 80px;
         width: 281px;
         height: 482px;
         z-index: -15;
@@ -340,9 +350,80 @@ body{
     .ration{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         position: relative;
+        left: 100px;
         height: 83px;
     }
+
+    /* .numbers-1{ 
+        right: 10px;
+     } 
+ 
+     .numbers-2{
+        left: 50px;
+     }
+  
+     .numbers-3{
+        right: -70px;
+     } */
+
+     .jeremy-mobile ,.jeremy-desktop{
+        display: none;
+    }
+    
+    .jeremy-tablet{
+        display: initial;
+        position: absolute;
+        bottom: 750px;
+        left: 230px;
+        margin-top: 30px;
+        z-index: 10;
+    }
+
+    .blurry{
+        position: relative;
+        z-index: 10;
+        left: 200px;
+    }
+    
+    .lower-curved-line{  
+        position: relative;
+        bottom: 90px;
+        left: 300px;
+    }
+
+    .info{
+        width: 720px;
+        height: 684px;
+        margin-top: 200px;
+    }
+
+    .upper-text{
+        left: 60px;
+        top: 100px;
+    }
+    
+    .testimony{
+        width: 573px;
+        position: relative;
+        left: 60px;
+        top: 120px;
+    }
+
+    .identity{
+        left: 60px;
+
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        width: 725px;
+        margin-left: -120px;
+        justify-content: space-between;
+    }
+
     
 }
 

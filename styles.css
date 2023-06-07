@@ -412,8 +412,6 @@ footer{
         font-weight: 600;
         position: relative;
         bottom: 200px;
-        /* margin-left: 40px; */
-
     }
 
     .numbers-1{ 
@@ -496,11 +494,8 @@ footer{
     .message{
         text-align: center;
         position: absolute;
-        /* bottom: 320px; */
         right: 300px;
         font-family: 'Epilogue';
-        /* z-index: -10; */
-        
     }
     
     .upper-text{
