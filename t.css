@@ -19,16 +19,17 @@ body{
     border: 2px solid rebeccapurple;
     font-family: 'Epilogue';
     position: relative;
-    z-index: -1;
+    z-index: 11;
 }
 
 .bottom-bg {
     background-color: #F3EDE7;
-    width: 100%;
-    height: 50px;
+    width: calc(100% - 30px);
+    height: 290px;
     position: absolute;
+    left: 15px;
     bottom: 0px;
-    z-index: 2;
+    z-index: 10;
 }
 
 .header{
@@ -88,6 +89,7 @@ body{
 
 .second-paragraph{
     font-family: 'Epilogue';
+    color: #49566D;
 }
 
 .lower-button{
@@ -121,7 +123,7 @@ body{
 .ration{
     text-align: center;
     font-family: 'Epilogue';
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     /* margin-bottom: 250px; */
 }
 
@@ -153,17 +155,15 @@ body{
 .jeremy-mobile{
     display: initial;
     position: absolute;
-    bottom: 550px;
+    bottom: 830px;
     left: 60px; 
     z-index: 10;
 }
 
 .blurry{
     position: relative;
-    /* z-index: 10; */
     left: 30px;
     bottom: 30px;
-    /* width: 20px; */
     height: 300px; 
 }
 
@@ -176,11 +176,10 @@ body{
 .info{
     background-color: #172339;
     width: 330px;
-    height: 748px;
+    height: 780px;
     border-radius: 10px;
     margin-top: 150px;
     align-items: center;
-    /* z-index: -10; */
 }
 
 .recommendation{
@@ -192,7 +191,7 @@ body{
     position: absolute;
     font-family: 'Epilogue';
     /* padding: 30px; */
-    bottom: 90px;
+    bottom: 380px;
     /* z-index: 10; */
 }
 
@@ -210,6 +209,7 @@ body{
     width: 288px;
     height: 175px;
     color: #FFFFFF;
+    line-height: 30px;
     font-family: 'Epilogue';
     position: relative;
     top: 80px;
@@ -225,6 +225,7 @@ body{
 .identity{
     position: relative;
     left: 20px;
+    top: 30px;
 }
 
 .name{
@@ -238,9 +239,111 @@ body{
 
 .cmo{
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #FFFFFF;
 }
 .footer{
-    background-color: red;
+    height: 180px;
+    width: 150px;
+    position: relative;
+    left: 120px;
+    padding:  50px 0px;
+    line-height: 50px;
+    margin-bottom: 80px;
 }
+
+.icon-1 , .icon-2 , .icon-3{
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+
+    .section-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .first-curved-line{
+        width: 280px;
+        height: 39px;
+        position: relative;
+        left: 200px;
+        top: 130px;
+    }
+
+    .first-paragraph{
+        position: absolute;
+        left: 50px;
+        font-family:'Epilogue';
+        font-weight: 400px;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.78px;
+        z-index: 10;
+        height: 129px;
+    }
+
+    .super{
+        color: #172339;
+        font-size: 56px;
+        font-weight: bolder;
+        font-family:'Epilogue';
+        Line-height: 64px;
+        letter-spacing: -0.78px;
+    }
+
+    .second-paragraph{
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.0888889px;
+        color: #49566D;
+        position: relative;
+        top: 250px;
+        right: 460px;
+        margin-top: 50px;
+    }
+
+    .lower-button{
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        margin-top:20px ;
+        position: relative;
+        top: 250px;
+        left: 50px;
+    }
+
+    .hero-mobile,.hero-desktop{
+        display: none;
+    }
+    
+    .hero-tablet{
+        display: initial;
+        position: relative;
+        right: 20px;
+        /* left: 40px; */
+        bottom: 100px;
+        width: 281px;
+        height: 482px;
+        z-index: -15;
+    }
+
+    .ration{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: 83px;
+    }
+    
+}
+
+

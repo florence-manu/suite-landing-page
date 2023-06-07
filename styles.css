@@ -330,7 +330,6 @@ footer{
         font-size: 56px;
         line-height: 64px;
         letter-spacing: -0.78px;
-        /* margin-bottom: 50px; */
         z-index: 10;
         width: 573px;
         height: 129px;
@@ -393,7 +392,6 @@ footer{
         width: 281px;
         height: 482px;
         z-index: -15;
-        /* margin-bottom: 500px; */
     }
     
     /* section-2 */
@@ -406,8 +404,6 @@ footer{
         bottom: 250px;
         width: 689px;
         height: 83px;
-        /* padding: 200px; */
-        /* margin-top: 150px; */
     }
     
     .numbers-1 ,.numbers-2 ,.numbers-3{
